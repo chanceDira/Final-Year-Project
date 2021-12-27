@@ -1,4 +1,5 @@
 {
+  "homepage": "https://chanceDira.github.io/Final-Year-Project",
   "name": "start-kit",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +22,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +42,7 @@
   "devDependencies": {
     "babel-eslint": "9.0.0",
     "eslint": "5.12.0",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.12.4",
+    "gh-pages": "^3.2.3"
   }
 }

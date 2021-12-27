@@ -1,7 +1,9 @@
 version: "3"
+# POSTGRES_PASSWORD: "postgres"
 volumes:
   datavolume: {}
 services:
+  # version: "3"
   redis:
     container_name: hydro-scaffold-dex-redis
     image: redis:5.0
